@@ -1,0 +1,31 @@
+.movie-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .movie-card {
+    width: 18%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  .movie-info {
+    padding: 15px;
+    text-align: center;
+  }
+  .movie-info h4 {
+    margin: 10px 0;
+  }
+  .movie-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  .rating {
+    color: #ff0000;
+  }
+  

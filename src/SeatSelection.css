@@ -1,0 +1,138 @@
+/* Seat grid container */
+/*
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seat:hover {
+    background-color: lightgray;
+}
+
+
+.seat.selected {
+    background-color: rgb(230, 175, 48);
+}
+
+
+.seat.disabled {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+
+.selected-seats {
+    margin-top: 20px; 
+    text-align: center;
+}
+*/
+/* Center everything */
+.seat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Movie Screen Styling */
+  .screen {
+    width: 60%;
+    height: 10px;
+    background-color: #ded5d5df;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Grid for seats */
+  .seats-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 10px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+  }
+  
+  /* Base seat styling */
+  .seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Seat states */
+  .available {
+    background-color: gray;
+  }
+  
+  .available:hover {
+    background-color: lightgray;
+  }
+  
+  .selected {
+    background-color: green;
+  }
+  
+  .booked {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
+  /* Confirm button */
+  .confirm-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 160px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #e6b800;
+  }
+  
+  .confirm-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  

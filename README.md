@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+🎬 CineBook - Movie Ticket Booking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Book your favorite movie tickets effortlessly!
 
-## Available Scripts
+🔥 Overview
 
-In the project directory, you can run:
+CineBook is a user-friendly movie ticket booking platform where users can browse available movies, select their preferred showtimes, and book tickets seamlessly. The admin panel provides real-time booking insights, allowing efficient management of movie screenings.
 
-### `npm start`
+✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎟 For Users:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Book tickets for your favorite movies
 
-### `npm test`
+✅ Choose preferred seating
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Receive instant booking confirmations
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠 For Admins:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ View all available movies in a centralized dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ Click on any movie to see user booking details
 
-### `npm run eject`
+✅ Monitor seats booked per user per movie
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend:React / HTML, CSS, JS	Node.js
 
-## Learn More
+Backend:Express.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Database:MongoDB
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+🔧 Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1️⃣ Clone the repository:
 
-### Analyzing the Bundle Size
+git clone https://github.com/varshini776/CineBook-Movie-Ticket-Booking-.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd CineBook-Movie-Ticket-Booking-
 
-### Making a Progressive Web App
+2️⃣ Install dependencies:npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3️⃣ Start the server:node server.js
 
-### Advanced Configuration
+4️⃣ Run the frontend (if applicable):npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5️⃣ Visit in Browser:
 
-### Deployment
+📌 Open http://localhost:3000 for the frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📌 API will be running on http://localhost:5000
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+🖼️ [Booking Page]![Screenshot 2025-03-15 214606](https://github.com/user-attachments/assets/5abe1e05-a562-4a46-ac95-c33850122dfe)
+
+
+🖼️ [Seat Selection]![Screenshot 2025-03-15 214725](https://github.com/user-attachments/assets/1868f669-5a37-4258-bcad-d35667dbdd4b)
+
+
+🖼️ [ Admin Dashboard ]![Screenshot 2025-03-15 214935](https://github.com/user-attachments/assets/9fbe7d66-0562-47b5-bf3b-dd52042ef810)
+
+
+🖼️ [🔐 User Credentials Vault]![Screenshot 2025-03-16 001231](https://github.com/user-attachments/assets/e9434a8e-9848-4612-80c4-805b1b7fe493)
+
+
+🖼️ [ Booked Seats Log]![Screenshot 2025-03-16 001215](https://github.com/user-attachments/assets/862485e5-54d8-431a-babe-3b59266ec5c9)
+
+
+
+📌 Live Demo:
+
+
+![ScreenRecording2025-03-15225541-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/09ce79d4-581b-4427-a4e0-524477a52b1d)
+
+🎯 Upcoming Features
+
+🚀 Admin can add or delete the movies
+
+🚀 Movie Ratings & Reviews
+
+🚀 Discount Coupons & Offers
+
+🚀 AI-based Movie Recommendations
